@@ -1,0 +1,22 @@
+{
+  "name": "super-duper-cube",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "deploy": "gh-pages -d ./"
+  },
+  "keywords": [ "threejs", "gh-pages", "boilerplate" ],
+  "author": "@LCSLITX",
+  "license": "ISC",
+  "description": "A simple Three.js boilerplate with GitHub Pages.",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "lil-gui": "^0.21.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  }
+}
